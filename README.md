@@ -32,6 +32,7 @@ you need:
 3. **Set up MongoDB**:
    - If using MongoDB Atlas, create a free cluster and obtain the connection string.
    - Update `mongoose.connect()` in `app.js` with your MongoDB URI:
+   
      ```javascript
      mongoose.connect('your-mongodb-connection-string');
      ```
